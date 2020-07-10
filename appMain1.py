@@ -10,5 +10,5 @@ ui = ui_formhello.Ui_Form()
 ui.setupUi(baseWidget)
 
 baseWidget.show()
-
+ui.label.setText("Hello,被程序修改")
 sys.exit(app.exec_())
